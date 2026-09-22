@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — cIlpz</title>
+<style>
+  :root { --ink:#15161a; --muted:#5c6070; --line:#e4e6ee; --bg:#ffffff; --accent:#0f7b6c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#eceef5; --muted:#a2a8bb; --line:#2a2d38; --bg:#14151a; --accent:#4fd1b8; }
+  }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 -apple-system,
+         BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:0 16px; }
+  header { border-bottom:1px solid var(--line); }
+  header .wrap { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;
+                 gap:12px; padding:18px 16px; }
+  .brand { font-weight:700; font-size:19px; }
+  nav a { color:var(--muted); text-decoration:none; margin-left:18px; font-size:15px; }
+  h1 { font-size:30px; margin:40px 0 6px; letter-spacing:-.02em; }
+  h2 { font-size:19px; margin:32px 0 8px; }
+  .date { color:var(--muted); margin:0 0 8px; }
+  ul { padding-left:22px; } li { margin:7px 0; }
+  footer { border-top:1px solid var(--line); margin-top:48px; padding:22px 0 40px;
+           color:var(--muted); font-size:15px; }
+  footer a, a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="brand">cIlpz</span>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+</div></header>
+<main class="wrap">
+<h1>Privacy Policy</h1>
+<p class="date">Last updated: September 22, 2026</p>
+
+<p>cIlpz is software that runs on your own computer. This policy explains what it does with
+your information, and what it does not do.</p>
+
+<h2>Where your data lives</h2>
+<p>cIlpz is not a hosted service. It runs on a machine you control, and the videos you give
+it, the transcripts it makes, and the clips it produces are stored on that machine. We do not
+operate a server that receives your videos, and we cannot see your files, your clips or your
+TikTok account.</p>
+
+<h2>What cIlpz stores on your computer</h2>
+<ul>
+  <li><strong>Videos and clips</strong> you send it, and the finished clips it makes.</li>
+  <li><strong>Transcripts</strong> of the speech in those videos, used to place subtitles and
+    pick moments. Deleted along with the clip.</li>
+  <li><strong>A job record</strong> for each clip (when it ran, whether you approved it), so the
+    app can show its history and statistics.</li>
+  <li><strong>TikTok access tokens</strong>, if you connect an account. These are stored in a
+    local file so you do not have to sign in again. Removing the account deletes the file.</li>
+</ul>
+<p>You can delete all of it at any time from inside the app.</p>
+
+<h2>What cIlpz receives from TikTok</h2>
+<p>If you connect a TikTok account through TikTok's own login page, cIlpz requests only:</p>
+<ul>
+  <li><strong>Basic profile information</strong> (<code>user.info.basic</code>): your display
+    name and an account identifier, so the app can show which account a clip will be posted to.</li>
+  <li><strong>Permission to upload a video as a draft</strong> (<code>video.upload</code>).</li>
+  <li><strong>Permission to publish a video you have approved</strong> (<code>video.publish</code>).</li>
+</ul>
+<p>cIlpz does not read your TikTok videos, followers, messages, likes or analytics, and does
+not change your profile or post anything you have not approved. Before a posting screen is
+shown, it asks TikTok for your current posting settings (which audiences you may choose, whether
+comments, Duet or Stitch are switched off, and your maximum video length) so that the choices
+offered match your account. That information is used only to draw that screen and is not kept.</p>
+
+<h2>What is sent to other services</h2>
+<ul>
+  <li><strong>TikTok</strong> receives a clip and the settings you chose, only when you tap to
+    send it.</li>
+  <li><strong>Telegram</strong> carries the messages between you and your own bot, including the
+    clips it sends you for review, under
+    <a href="https://telegram.org/privacy">Telegram's privacy policy</a>.</li>
+  <li><strong>An AI provider</strong> (Anthropic, using your own API key) receives the transcript
+    text of a clip, and a few still frames from it, to suggest a caption. It does not receive your
+    TikTok data, your account details or the video file.</li>
+  <li><strong>Video sources</strong> you give it, such as Twitch or YouTube, are contacted to
+    download the video you asked for.</li>
+</ul>
+<p>Nothing is sent anywhere else, and nothing is sold, shared with advertisers or used to train
+anything.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>Clips awaiting your review, and the source video kept so a cut can be changed, are deleted
+automatically after a short window you configure. Approved clips can be set to delete themselves
+after a number of days. Disconnecting a TikTok account deletes its stored token immediately.
+Uninstalling cIlpz and deleting its folder removes everything.</p>
+
+<h2>Children</h2>
+<p>cIlpz is not directed at children and is not intended for anyone under 13, or under the
+minimum age required by TikTok in your country.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the date at the top will change with it.</p>
+
+<h2>Contact</h2>
+<p>Questions, or a request to delete data we hold: <a href="mailto:rosesardor@gmail.com">rosesardor@gmail.com</a>.</p>
+</main>
+<footer><div class="wrap">
+  <a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+</div></footer>
+</body>
+</html>
